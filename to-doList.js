@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded',function(){
         let task_text=document.querySelector("#nameOfTask").value;
         let new_task_html = `  <span> ${task_text} </span>
                            
-                            <button class = "remove btn btn-sm btn-outline-primary"> Remove </button>
+                            <button class = "remove btn btn-sm btn-outline-dark"> Remove </button>
                             <div class="mt-3">
                             <label for="task_priority">Priority:</label>
                             <select id="priority" name="task_priority">
