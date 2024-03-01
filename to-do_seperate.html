@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script src="/Users/admin/Desktop/CUS1172_moorti/to-doList.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="to_do_style.css">
+        
+
+        <title>To-do List</title>
+    </head>
+    <body>
+   <div class="container">
+    <h1 style ="text-align: center">To-Do List</h1>
+    <div class="row">
+        <h2>Add a task</h2>
+        <form id ="addTask">
+            <div class="form-group">
+               <label for="nameOfTask" style ="place-content:above;">Task Name:</label>
+               <br>
+                <textarea id="nameOfTask" style ="width: 200px; height: 20px;"autocomplete="off" autofocus placeholder="Type Task Name" type = "text" class ="form-control"> </textarea>
+           
+            </div>
+           <br>
+            <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <hr>
+        <div >
+        <h4> Tasks: </h4>
+       <ul id="task-list" ></ul>
+
+    </div>
+</div>
+    </body>
+</html>
